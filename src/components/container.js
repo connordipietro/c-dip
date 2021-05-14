@@ -1,11 +1,12 @@
 import { Jumbotron, Container, Tabs, Tab } from 'react-bootstrap'
 import Projects from './projects'
+import '../style.css'
 
 const App = () => {
 
   const renderNavBar = () => {
     return (
-<Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example">
+<Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example" className="myClass">
   <Tab eventKey="home" title="About">
     <div className="container">
     <h1>Test</h1>
