@@ -1,10 +1,47 @@
-const Container = () => {
+import { Jumbotron, Container, Tabs, Tab } from 'react-bootstrap'
+import Projects from './projects'
+
+const App = () => {
+
+  const renderNavBar = () => {
+    return (
+<Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example">
+  <Tab eventKey="home" title="About">
+    <div className="container">
+    <h1>Test</h1>
+    </div>
+  </Tab>
+  <Tab eventKey="profile" title="Projects">
+  <Projects />
+  </Tab>
+  <Tab eventKey="contributions" title="Contributions">
+  <div className="container">
+    <h1>Test</h1>
+    </div>
+  </Tab>
+  <Tab eventKey="contact" title="Contact">
+  <div className="container">
+    <h1>Test</h1>
+    </div>
+  </Tab>
+</Tabs>
+    )
+  }
+
   
   return (
     <div>
-      <h1>Hello World</h1>
+     <Jumbotron fluid>
+  <Container>
+    <h1 className="display-6">Connor DiPietro</h1>
+    <p className="lead">
+     Software Developer.
+    </p>
+  </Container>
+</Jumbotron>
+      <div>{renderNavBar()}</div>
     </div>
   );
 };
 
-export default Container;
+export default App;
