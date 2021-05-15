@@ -2,6 +2,7 @@ import { Tabs, Tab } from 'react-bootstrap';
 import About from './about';
 import Projects from './projects';
 import Contact from './contact';
+import Contributions from './contributions'
 
 const Nav = () => {
   return (
@@ -13,7 +14,7 @@ const Nav = () => {
         <Projects />
       </Tab>
       <Tab eventKey="contributions" title="Contributions">
-        <Projects />
+        <Contributions />
       </Tab>
       <Tab eventKey="contact" title="Contact">
         <Contact />

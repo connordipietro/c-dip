@@ -2,7 +2,7 @@ import { Jumbotron, Container } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Container className="m-3 p-3">
+    <Container className="my-3 px-3">
       <Jumbotron fluid>
         <h3>Hello, world!</h3>
         <p>Based in Washington D.C. and open to relocation, I’m a Fire Fighter turned Software Student with a passion for technology and solving complex problems.</p>
