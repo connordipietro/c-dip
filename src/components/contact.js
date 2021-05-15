@@ -1,11 +1,11 @@
 const Contact = () => {
   return (
-    <div className="container-fluid p-4">
+    <div className="container-fluid p-3">
       <div className="row m-2">
-      <button className="btn btn-outline-secondary">Email</button>
+        <button className="btn btn-outline-secondary btn-lg">Email</button>
       </div>
       <div className="row m-2">
-      <button className="btn btn-outline-secondary">Call</button>
+        <button className="btn btn-outline-secondary btn-lg">Call</button>
       </div>
     </div>
   );

@@ -37,8 +37,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="col">
-        <div className="card h-100">
+      <div className="col pb-5 mb-3">
+        <div className="card h-100 ">
           <img
             src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
             className="card-img-top"
