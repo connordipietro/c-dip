@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="row row-cols-1 row-cols-md-3 g-4 m-3">
+    <div className="row row-cols-1 row-cols-md-3 g-4 pb-5 mx-3 pt-4">
       <div className="col">
         <div className="card h-100">
           <img
@@ -37,7 +37,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="col pb-5 mb-3">
+      <div className="col">
         <div className="card h-100 ">
           <img
             src="https://mdbootstrap.com/img/new/standard/city/042.jpg"

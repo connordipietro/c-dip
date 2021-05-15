@@ -1,10 +1,19 @@
+import Toggle from './DarkModeToggle'
+
 const Footer = () => {
   return (
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-      <div class="container-fluid justify-content-center">
-        <p class="navbar-brand">Social Links</p>
+    <div className="navbar fixed-bottom">
+      <div className="container">
+        <div className="row">
+          <div className="col-md">
+            <h6>Social Links Will Go Here</h6>
+          </div>
+        </div>
+        <div className="col-md text-end">
+          <Toggle />
+        </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

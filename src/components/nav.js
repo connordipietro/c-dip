@@ -1,23 +1,19 @@
 import { Tabs, Tab } from 'react-bootstrap';
 import About from './about';
 import Projects from './projects';
-import Contact from './contact';
 import Contributions from './contributions'
 
 const Nav = () => {
   return (
-    <Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example" className="myClass bg-light">
-      <Tab eventKey="home" title="About">
+    <Tabs fill defaultActiveKey="home" id="tabs" className="">
+      <Tab eventKey="home" title="About" id="tab-about">
         <About />
       </Tab>
-      <Tab eventKey="profile" title="Projects">
+      <Tab eventKey="projects" title="Projects" className="" id="tab-projects">
         <Projects />
       </Tab>
-      <Tab eventKey="contributions" title="Contributions">
+      <Tab eventKey="contributions" title="Contributions" id="tab-contributions">
         <Contributions />
-      </Tab>
-      <Tab eventKey="contact" title="Contact">
-        <Contact />
       </Tab>
     </Tabs>
   );

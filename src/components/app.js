@@ -1,7 +1,7 @@
 import Footer from './footer';
 import Header from './header';
 import Nav from './nav';
-import '../style.css';
+import './style.css'
 
 const App = () => {
   return (

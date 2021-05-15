@@ -1,0 +1,95 @@
+body.light-mode {
+  background-color: white;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: #dfdfdf;
+}
+
+body.dark-mode .nav-link.active {
+  background-color: black !important;
+  border-color: lightgrey;
+  border-bottom: none;
+  color: white;
+}
+
+body.light-mode .nav-link.active {
+  background-color: white !important;
+  border-bottom: none;
+  border-color: #e0fbfc !important;
+}
+
+body.light-mode #tabs-tab-home {
+  background-color: #f8f9fa;
+  color: black;
+  border-bottom: none;
+  border-top-color: lightgrey;
+  border-left-color: lightgrey;
+  border-right-color: lightgrey;
+}
+
+body.light-mode #tabs-tab-projects {
+  background-color: #f8f9fa;
+  color: black;
+  border-bottom: none;
+  border-top-color: lightgrey;
+  border-left-color: lightgrey;
+  border-right-color: lightgrey;
+}
+
+body.light-mode #tabs-tab-contributions {
+  background-color: #f8f9fa;
+  color: black;
+  border-bottom: none;
+  border-top-color: lightgrey;
+  border-left-color: lightgrey;
+  border-right-color: lightgrey;
+}
+
+body.dark-mode #tabs-tab-home {
+  background-color: #343a40;
+  color: white;
+  border-bottom: none;
+  border-top-color: grey;
+  border-left-color: grey;
+  border-right-color: grey;
+}
+
+body.dark-mode #tabs-tab-projects {
+  background-color: #343a40;
+  color: white;
+  border-bottom: none;
+  border-top-color: grey;
+  border-left-color: grey;
+  border-right-color: grey;
+}
+
+body.dark-mode #tabs-tab-contributions {
+  background-color: #343a40;
+  color: white;
+  border-bottom: none;
+  border-top-color: grey;
+  border-left-color: grey;
+  border-right-color: grey;
+}
+
+body.dark-mode .card-body {
+  background-color: black;
+  border-color: grey;
+}
+
+body.dark-mode .fixed-bottom {
+  background-color: #343a40;
+  color: white;
+}
+
+body.dark-mode .navbar-brand {
+  color: white;
+}
+
+body.light-mode .fixed-bottom {
+  background-color: #f8f9fa;
+}
