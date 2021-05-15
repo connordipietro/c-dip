@@ -5,7 +5,6 @@ import App from "./components/container";
 
 
 ReactDOM.render(
- 
     <App />,
   document.getElementById('root')
 );
