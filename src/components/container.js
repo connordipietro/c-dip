@@ -1,24 +1,34 @@
-import { Jumbotron, Container, Tabs, Tab } from 'react-bootstrap'
+import { Jumbotron, Container, Tabs, Tab, Card, Button, Media } from 'react-bootstrap'
 import Projects from './projects'
 import '../style.css'
+import 'holderjs'
+
 
 const App = () => {
 
   const renderNavBar = () => {
     return (
 <Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example" className="myClass">
-  <Tab eventKey="home" title="About">
-    <div className="container">
-    <h1>Test</h1>
-    </div>
+
+  <Tab eventKey="home" title="About" className="mt-5">
+
+
+<Container>
+  <h1>Hi</h1>
+</Container>
+
+
+
+  
+
+
+
   </Tab>
   <Tab eventKey="profile" title="Projects">
   <Projects />
   </Tab>
   <Tab eventKey="contributions" title="Contributions">
-  <div className="container">
-    <h1>Test</h1>
-    </div>
+  <Projects />
   </Tab>
   <Tab eventKey="contact" title="Contact">
   <div className="container">
