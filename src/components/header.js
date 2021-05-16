@@ -11,16 +11,18 @@ const Header = () => {
     return (
       <Alert show={showSuccess} variant="dark">
         <Row>
-         <Col>
-          <Alert.Heading>Email Copied to Clipboard</Alert.Heading>
-          <p>I copied my email address to your clipboard :)
-          <br></br>
-          connor.dipietro@gmail.com
-          </p>
-        </Col>
-        <Col auto className="text-end">
-          <Button onClick={() => setShowSuccess(false)} variant="outline-secondary"> X </Button>
-        </Col>
+          <Col fluid>
+            <Alert.Heading><h6>Copied to Clipboard 😎</h6></Alert.Heading>
+            <p>connor.dipietro@gmail.com</p>
+          </Col>
+          <Col className="text-end">
+            <Button onClick={() => setShowSuccess(false)} variant="outline-secondary"> X </Button>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>To launch a new email with your default email client, click <u><a href="mailto:connor.dipietro.com">here</a></u> or the envelope in the footer.</p>
+          </Col>
       </Row>
     </Alert>
     )
@@ -71,3 +73,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
