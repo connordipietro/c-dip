@@ -23,21 +23,21 @@ const Footer = () => {
             </a>
           </div>
           <div className="col">
-            <a href="https://www.linkedin.com/in/connor-dipietro-77512b20b/">
+            <a href="https://www.linkedin.com/in/connor-dipietro-77512b20b/" target="_blank" rel="noreferrer noopener">
               <IconContext.Provider value={{ size: "1.75em" }}>
                 <AiOutlineLinkedin></AiOutlineLinkedin>
               </IconContext.Provider>
             </a>
           </div>
           <div className="col">
-            <a href="https://github.com/connordipietro">
+            <a href="https://github.com/connordipietro" target="_blank" rel="noreferrer noopener">
               <IconContext.Provider value={{ size: "1.75em" }}>
                 <AiOutlineGithub></AiOutlineGithub>
               </IconContext.Provider>
             </a>
           </div>
           <div className="col">
-            <a href="https://www.codewars.com/users/connordipietro">
+            <a href="https://www.codewars.com/users/connordipietro" target="_blank" rel="noreferrer noopener">
               <IconContext.Provider value={{ size: "1.6em" }}>
                 <SiCodewars></SiCodewars>
               </IconContext.Provider>

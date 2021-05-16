@@ -8,8 +8,8 @@ const AboutAccordion = () => {
         About this site
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="1">
-        <Card.Body>
-          <p>Built with React and continuiously deployed on AWS Amplify. Check it out on <u><a href="https://github.com/connordipietro/c-dip"> GitHub ↗</a></u></p>
+        <Card.Body className="pb-1">
+          <p>Built with React and continuiously deployed on AWS Amplify. Check it out on <u><a href="https://github.com/connordipietro/c-dip" target="_blank" rel="noreferrer noopener"> GitHub ↗</a></u></p>
         </Card.Body>
       </Accordion.Collapse>
     </Card>
