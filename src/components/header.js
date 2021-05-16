@@ -6,7 +6,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 const Header = () => {
   const [showSuccess, setShowSuccess] = useState(false);
-  const [showFailure, setShowFailure] = useState(false);
 
   if (showSuccess) {
     return (
@@ -28,29 +27,13 @@ const Header = () => {
     </Alert>
     )
   };
-
-    if (showFailure) {
-      return (
-        <Alert show={showFailure} variant="dark">
-          <Row>
-            <Col>
-              <Alert.Heading>Email Copied to Clipboard</Alert.Heading>
-              <p>I copied my email address to your clipboard :)
-              <br></br>
-              connor.dipietro@gmail.com
-              </p>
-            </Col>
-            <Col className="text-end">
-              <Button onClick={() => setShowSuccess(false)} variant="outline-secondary"> X </Button>
-            </Col>
-          </Row>
-        </Alert>
-      )
-    };
  
   const handleEmailClick = () => {
     navigator.clipboard.writeText("connor.dipietro@gmail.com")
-    .then(() => setShowSuccess(true), () => setShowFailure(true));
+    .then(() => setShowSuccess(true), () => alert(`
+      I wasn't able to write to your clipboard :-( 
+      To launch a new email with your default email client, click the envelope in the footer.</p>
+    `))
   };
 
   return (
