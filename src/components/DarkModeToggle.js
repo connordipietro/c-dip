@@ -6,7 +6,7 @@ const Toggle = () => {
 
   return (
     <div className="dark-mode-toggle">
-      <DarkModeToggle onChange={darkMode.toggle} checked={darkMode.value} size={50}/>
+      <DarkModeToggle onChange={darkMode.toggle} checked={darkMode.value} size={57}/>
     </div>
   );
 };
