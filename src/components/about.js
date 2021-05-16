@@ -1,4 +1,5 @@
 import { Jumbotron, Container } from 'react-bootstrap';
+import AboutAccordion from './AboutAccordian'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
         <p>Working with clunky and outdated technology in the firehouse inspired me to find a better way. My goal is to work with a team, creating meaningful products that better people's lives.</p>
         <p>React/Redux, Backbone, Handlebars, Node, Express, Mongo, Mocha, Swagger, Git.</p>
         <p>What’s next? AWS &amp; Swift.</p>
-        <button className="btn btn-secondary" onClick={() => alert('Future cool email button feature coming soon!')}>Hire Me</button>
+        <AboutAccordion></AboutAccordion>
       </Jumbotron>
   </Container>
   );

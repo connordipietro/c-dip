@@ -1,3 +1,11 @@
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 body.light-mode {
   background-color: white;
   color: #333;
@@ -94,10 +102,6 @@ body.light-mode .fixed-bottom {
   background-color: #f8f9fa;
 }
 
-a,
-a:hover,
-a:visited,
-a:active {
-  color: inherit;
-  text-decoration: none;
+body.dark-mode .card-header {
+  background-color: #343a40;
 }

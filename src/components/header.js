@@ -1,7 +1,8 @@
 import { Jumbotron, Container, Row, Col, Alert, Button } from 'react-bootstrap';
-import { FaEnvelope } from 'react-icons/fa'
 import { IconContext } from "react-icons";
 import { useState } from 'react';
+
+import { AiOutlineMail } from 'react-icons/ai';
 
 const Header = () => {
   const [showSuccess, setShowSuccess] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
       <Alert show={showSuccess} variant="dark">
         <Row>
           <Col fluid>
-            <Alert.Heading><h6>Copied to Clipboard 😎</h6></Alert.Heading>
+            <Alert.Heading><h6>Copied to Clipboard 📎</h6></Alert.Heading>
             <p>connor.dipietro@gmail.com</p>
           </Col>
           <Col className="text-end">
@@ -39,7 +40,7 @@ const Header = () => {
               connor.dipietro@gmail.com
               </p>
             </Col>
-            <Col auto className="text-end">
+            <Col className="text-end">
               <Button onClick={() => setShowSuccess(false)} variant="outline-secondary"> X </Button>
             </Col>
           </Row>
@@ -59,10 +60,10 @@ const Header = () => {
           <Col>
             <h1 className="display-6">Connor DiPietro</h1>
           </Col>
-          <Col auto className="text-end">
+          <Col className="text-end">
             <IconContext.Provider value={{ size: "3em" }}>
               <div className="justift-content-center">
-                <FaEnvelope onClick={() => handleEmailClick()}></FaEnvelope>
+                <AiOutlineMail onClick={() => handleEmailClick()}></AiOutlineMail>
               </div>
             </IconContext.Provider>
           </Col>

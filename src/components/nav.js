@@ -5,14 +5,14 @@ import Contributions from './contributions'
 
 const Nav = () => {
   return (
-    <Tabs fill defaultActiveKey="home" id="tabs" className="">
-      <Tab eventKey="home" title="About" id="tab-about">
+    <Tabs fill defaultActiveKey="home" id="tab">
+      <Tab eventKey="home" title="About">
         <About />
       </Tab>
-      <Tab eventKey="projects" title="Projects" className="" id="tab-projects">
+      <Tab eventKey="projects" title="Projects">
         <Projects />
       </Tab>
-      <Tab eventKey="contributions" title="Contributions" id="tab-contributions">
+      <Tab eventKey="contributions" title="Contributions">
         <Contributions />
       </Tab>
     </Tabs>
