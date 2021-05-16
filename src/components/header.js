@@ -37,11 +37,11 @@ const Header = () => {
   };
 
   return (
-    <Jumbotron fluid className="">
+    <Jumbotron fluid>
       <Container className="pt-3 pb-3">
         <Row>
           <Col>
-            <h1 className="display-6">Connor DiPietro</h1>
+          <h1 className="display-6">Connor DiPietro</h1>
           </Col>
           <Col className="text-end">
             <IconContext.Provider value={{ size: "3em" }}>
