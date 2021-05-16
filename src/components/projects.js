@@ -15,7 +15,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="font-weight-light">Last updated 3 mins ago</small>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="font-weight-light">Last updated 3 mins ago</small>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="font-weight-light">Last updated 3 mins ago</small>
           </div>
         </div>
       </div>

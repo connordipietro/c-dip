@@ -1,7 +1,8 @@
+import './style.css'
 import Footer from './footer';
 import Header from './header';
 import Nav from './nav';
-import './style.css'
+
 
 const App = () => {
   return (

@@ -3,7 +3,7 @@ import AboutAccordion from './AboutAccordian'
 
 const About = () => {
   return (
-    <Container className="my-3 px-3">
+    <Container className="my-3 px-3 pb-5">
       <Jumbotron fluid>
         <h4>Hello, world!</h4>
         <p>Based in Washington D.C. and open to relocation, I am a Fire Fighter turned Software Engineering Student with a passion for technology and solving complex problems.</p>

@@ -3,7 +3,6 @@ import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail, AiOutlinePhone } fro
 import { SiCodewars } from 'react-icons/si'
 import { IconContext } from "react-icons";
 
-
 const Footer = () => {
   return (
     <div className="navbar fixed-bottom">
