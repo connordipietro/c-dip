@@ -1,8 +1,8 @@
-import { Jumbotron, Container, Row, Col, Alert, Button } from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col, Alert } from 'react-bootstrap';
 import { IconContext } from "react-icons";
 import { useState } from 'react';
+import { AiOutlineMail, AiOutlineCloseSquare  } from 'react-icons/ai';
 
-import { AiOutlineMail } from 'react-icons/ai';
 
 const Header = () => {
   const [showSuccess, setShowSuccess] = useState(false);
@@ -10,14 +10,16 @@ const Header = () => {
 
   if (showSuccess) {
     return (
-      <Alert show={showSuccess} variant="dark">
+      <Alert show={showSuccess} variant="dark" className="pb-0">
         <Row>
           <Col>
             <Alert.Heading><h6>Copied! 📎 </h6></Alert.Heading>
             <p> connor.dipietro@gmail.com</p>
           </Col>
           <Col className="text-end">
-            <Button onClick={() => setShowSuccess(false)} variant="outline-secondary"> X </Button>
+            <IconContext.Provider value={{ size: "2em" }}>
+              <AiOutlineCloseSquare onClick={() => setShowSuccess(false)} />
+            </IconContext.Provider>
           </Col>
         </Row>
         <Row>
