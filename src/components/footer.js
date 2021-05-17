@@ -1,6 +1,5 @@
 import Toggle from './DarkModeToggle'
 import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
-import { SiCodewars } from 'react-icons/si'
 import { IconContext } from "react-icons";
 
 const Footer = () => {
@@ -33,13 +32,6 @@ const Footer = () => {
             <a href="https://github.com/connordipietro" target="_blank" rel="noreferrer noopener">
               <IconContext.Provider value={{ size: "1.75em" }}>
                 <AiOutlineGithub></AiOutlineGithub>
-              </IconContext.Provider>
-            </a>
-          </div>
-          <div className="col">
-            <a href="https://www.codewars.com/users/connordipietro" target="_blank" rel="noreferrer noopener">
-              <IconContext.Provider value={{ size: "1.6em" }}>
-                <SiCodewars></SiCodewars>
               </IconContext.Provider>
             </a>
           </div>
