@@ -134,3 +134,17 @@ a:active {
   color: inherit !important;
   text-decoration: none;
 }
+
+.square {
+  border-radius: 0px !important;
+}
+
+.acord-top {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.acord-btm {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
