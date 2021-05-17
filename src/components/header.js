@@ -24,7 +24,7 @@ const Header = () => {
         </Row>
         <Row>
           <Col>
-            <p>To open a new email with your default email client, click <u><a href="mailto:connor.dipietro.com">here.</a></u></p>
+            <p>To open a new email with your default email client, click <u><a href="mailto:connor.dipietro.com">here ↗</a></u></p>
           </Col>
       </Row>
     </Alert>

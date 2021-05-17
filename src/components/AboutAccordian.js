@@ -9,7 +9,7 @@ const AboutAccordion = () => {
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="1">
         <Card.Body  className="pb-1">
-        <p>Front End: React/Redux, Backbone, Handlebars, ES6, HTML5, CSS3</p>
+        <p>Front End: React/Redux, Backbone, Bootstrap, Handlebars, ES6, HTML5, CSS3</p>
         <hr></hr>
         <p>Back End: Node, Express, Mongo/Mongoose, Auth, Swagger</p>
         <hr></hr>
@@ -35,7 +35,7 @@ const AboutAccordion = () => {
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="3">
         <Card.Body className="pb-1">
-          <p>Built with React and continuiously deployed via AWS Amplify, Certificate Manager, &amp; Route 53.</p> <hr></hr><p>Check it out on <u>
+          <p>Built with React, stylized with Bootstrap, and continuiously deployed via AWS Amplify, Certificate Manager, &amp; Route 53.</p> <hr></hr><p>Check it out on <u>
             <a href="https://github.com/connordipietro/c-dip" target="_blank" rel="noreferrer noopener"> GitHub ↗</a></u></p>
         </Card.Body>
       </Accordion.Collapse>
