@@ -1,6 +1,6 @@
 import { Jumbotron, Container } from 'react-bootstrap';
 import AboutAccordion from './AboutAccordian'
-import Me from '../media/me.jpg'
+
 const About = () => {
   return (
     <Container className="my-3 px-3 pb-5">
@@ -13,7 +13,7 @@ const About = () => {
             <AboutAccordion></AboutAccordion>
           </div>
           <div className="col text-center">
-            <img width={250} height={250} className="mr-3" src={Me} alt="Generic placeholder"/>
+            <img width={250} height={250} className="mr-3" src="https://avatars.githubusercontent.com/u/74513418?v=4" alt="Generic placeholder"/>
           </div>
         </div>
       </Jumbotron>
