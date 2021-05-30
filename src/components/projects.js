@@ -45,10 +45,16 @@ const Projects = () => {
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Project 3</h5>
+            <h5 className="card-title">MERN CD Template</h5>
             <p className="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              A boilerplate MERN (MongoDb, Express, React, Node.js) fullstack template I created with detailed instructions for integrating continuous deployment from a single repository and project directory. Easily launch from development into production in a streamlined and easy to understand way.
             </p>
+            <hr></hr>
+            <div style={{display: "flex", justifyContent: "space-between"}}>
+              <div>Check it out on <u><a href="https://github.com/connordipietro/mern-deployment-tamplate" target="_blank" rel="noreferrer noopener"> GitHub ↗</a></u>
+              </div>
+              <div><u><a href="https://evening-plains-16640.herokuapp.com/" target="_blank" rel="noreferrer noopener"> Live example ↗</a></u></div>
+            </div>
           </div>
           <div className="card-footer">
             <small className="font-weight-light">Last updated 3 mins ago</small>
