@@ -46,7 +46,7 @@ const AboutAccordion = () => {
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="4" className="acord-top">
         <Card.Body className="pb-1 acord-top">
-        <p>AWS &amp; Swift!</p>
+        <p>DS&amp;A, Swift, AWS</p>
         </Card.Body>
       </Accordion.Collapse>
     </Card>

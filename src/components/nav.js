@@ -12,9 +12,9 @@ const Nav = () => {
       <Tab eventKey="projects" title="Projects">
         <Projects />
       </Tab>
-      <Tab eventKey="contributions" title="Contributions">
+        {/*       <Tab eventKey="contributions" title="Contributions">
         <Contributions />
-      </Tab>
+      </Tab> */}
     </Tabs>
   );
 };
