@@ -1,4 +1,5 @@
 import { Accordion, Card } from 'react-bootstrap';
+import resume from '../Documents/resume.pdf'
 
 const AboutAccordion = () => {
   return (
@@ -25,7 +26,7 @@ const AboutAccordion = () => {
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="2">
         <Card.Body className="pb-1 acord-btm">
-        <p>Download</p>
+        <u><a href = {resume} target = "_blank" rel="noreferrer noopener">Download PDF ↗</a></u>
         </Card.Body>
       </Accordion.Collapse>
     </Card>
