@@ -26,7 +26,7 @@ const AboutAccordion = () => {
       </Accordion.Toggle>
       <Accordion.Collapse eventKey="2">
         <Card.Body className="pb-1 acord-btm">
-        <u><a href = {resume} target = "_blank" rel="noreferrer noopener">Download PDF ↗</a></u>
+        <u><a href ={resume} target ="_blank" rel="noreferrer noopener" download>Download PDF ↗</a></u>
         </Card.Body>
       </Accordion.Collapse>
     </Card>
