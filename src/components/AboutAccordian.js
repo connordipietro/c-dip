@@ -20,16 +20,6 @@ const AboutAccordion = () => {
         </Card.Body>
       </Accordion.Collapse>
     </Card>
-    <Card className="square acord-top">
-      <Accordion.Toggle as={Card.Header} eventKey="2" className="square acord-top">
-        Resume
-      </Accordion.Toggle>
-      <Accordion.Collapse eventKey="2">
-        <Card.Body className="pb-1 acord-btm">
-        <u><a href ={resume} target ="_blank" rel="noreferrer noopener" download>Download PDF ↗</a></u>
-        </Card.Body>
-      </Accordion.Collapse>
-    </Card>
     <Card className="square">
       <Accordion.Toggle as={Card.Header} eventKey="3" className="square">
         About this site
